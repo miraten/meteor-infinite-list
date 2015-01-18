@@ -1,4 +1,4 @@
-/*
+
 var triggerHandle;
 
 Template.postsList.rendered = function() {
@@ -12,4 +12,3 @@ Template.postsList.rendered = function() {
 Template.postsList.destroyed = function() {
   InfiniteScrollTrigger.unbind(triggerHandle);
 };
-*/
